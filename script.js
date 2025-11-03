@@ -8,7 +8,7 @@ form.addEventListener("submit", async (e) => {
   const phone = document.getElementById("phone").value.trim();
   
   // 🚀 Replace this with your actual n8n webhook URL
-  const webhookURL = "http://localhost:5678/webhook-test/007256c4-1494-42fb-87a5-08b3845d6dfb";
+  const webhookURL = "http://localhost:5678/webhook/007256c4-1494-42fb-87a5-08b3845d6dfb";
 
   const data = { name, phone };
 
